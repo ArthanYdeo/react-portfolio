@@ -1,5 +1,6 @@
 import React from 'react'
 import './works.css'
+import Works1 from '../../assets/paykana.jpg'
 
 const Works = () => {
   return (
@@ -7,11 +8,7 @@ const Works = () => {
        <h2 className='worksTitle'>My Portfolio</h2>
        <span className='worksDescription'>My works as a Web Development Student.</span>
        <div className='worksImgs'>
-        <img src='' className='worksImg'></img>
-        <img src='' className='worksImg'></img>
-        <img src='' className='worksImg'></img>
-        <img src='' className='worksImg'></img>
-
+        <img src={Works1} className='worksImg'></img>
        </div>
     </section>
   )
