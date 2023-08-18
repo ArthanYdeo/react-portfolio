@@ -1,0 +1,16 @@
+.footer {
+    background-color: #61677A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-image {
+    max-width: 100px; /* Adjust the image width as needed */
+  }
+  .footerText{
+    font-size: 1rem;
+  }
